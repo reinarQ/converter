@@ -1,4 +1,4 @@
-
+FROM python:3.7.12-slim
 WORKDIR /app
 
 #Python won’t try to write .pyc files on the import of source modules
